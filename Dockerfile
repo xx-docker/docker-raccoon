@@ -13,7 +13,7 @@ RUN apt-get -y update
 RUN apt-get install -y python-dev python3-pip python3-dev  python3.6-dev \
     build-essential libssl-dev libffi-dev \
      libxml2-dev libxslt1-dev zlib1g-dev net-tools libssh-gcrypt-dev \
-	 libxml2-dev libpcap-dev net-tools nmap openssl
+	 libxml2-dev libpcap-dev net-tools nmap openssl inetutils-ping
 
 USER root
 RUN pip3 install --upgrade pip --index-url https://pypi.tuna.tsinghua.edu.cn/simple
