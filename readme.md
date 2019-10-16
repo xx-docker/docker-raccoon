@@ -1,0 +1,1 @@
+docker run -it --rm -v $(pwd):/tmp registry.cn-shenzhen.aliyuncs.com/rapid7/raccoon:v1 raccoon --help

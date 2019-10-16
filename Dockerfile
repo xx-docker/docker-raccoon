@@ -20,7 +20,8 @@ USER root
 RUN pip3 install --upgrade pip --index-url https://pypi.tuna.tsinghua.edu.cn/simple
 RUN pip3 install raccoon-scanner --index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
-ENTRYPOINT ['raccoon']
-CMD ['--help']
+#ENTRYPOINT ['raccoon']
+
+CMD ['raccoon', '--help']
 
 
